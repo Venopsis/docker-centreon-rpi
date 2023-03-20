@@ -7,7 +7,7 @@ if [ "$1" = "install" ]
     then
         # Run the installation script.
         echo $(date) "- Installation mode initiated"
-        /centreon_central.sh
+        ./centreon_central.sh
 elif [ "$1" = "start" ]
     then
         echo $(date) "- Centreon service : starting"
